@@ -1,7 +1,5 @@
 # TweepyBot
 
-# Twitter Bot
-
 A Python-based Twitter bot using `PySide6` for UI and `tweepy` for Twitter API interactions. This bot allows users to automate tweets, schedule posts, and interact with Twitter through a simple interface.
 
 ---
