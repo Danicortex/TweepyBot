@@ -1,0 +1,14 @@
+#paths
+.json
+.spec
+
+
+#folder
+/Memes---
+/dist
+/build
+/memebank
+/__pycache__
+
+#files
+tweet_video_up_save.txt
