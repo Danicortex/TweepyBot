@@ -9,6 +9,7 @@ A Python-based Twitter bot using `PySide6` for UI and `tweepy` for Twitter API i
 - Schedule tweets at specific times
 - User-friendly GUI built with PySide6
 - Customizable settings and API authentication
+- This is still a WIP project 
 
 ---
 
@@ -22,7 +23,7 @@ A Python-based Twitter bot using `PySide6` for UI and `tweepy` for Twitter API i
 ### Setup
 1. Clone this repository:
    ```sh
-   git clone [https://github.com/yourusername/twitter-bot](https://github.com/Danicortex/TweepyBot)
+   git clone https://github.com/Danicortex/TweepyBot
    cd twitter-bot
    ```
 2. Install required dependencies:
@@ -31,7 +32,7 @@ A Python-based Twitter bot using `PySide6` for UI and `tweepy` for Twitter API i
    ```
 3. Run the bot:
    ```sh
-   python main.py
+   python tweet.py
    ```
 
 ---
@@ -55,6 +56,10 @@ To use this bot, you need API keys from Twitter. Follow these steps:
      - API Secret Key
      - Access Token
      - Access Token Secret
+     - Bearer Token
+     - Client Id
+     - Client Secret
+     - Twitter Username
 
 4. **Store the Keys Safely:**
    - Save them in a `.env` file or enter them into the bot’s configuration settings.
@@ -62,9 +67,9 @@ To use this bot, you need API keys from Twitter. Follow these steps:
 ---
 
 ## Usage
-1. Run `main.py`
+1. Run `tweet.py`
 2. Enter your Twitter API credentials
-3. Use the UI to send or schedule tweets
+3. Use the UI to send and automate tweets
 
 ---
 
@@ -86,7 +91,7 @@ Read the full license [here](https://creativecommons.org/licenses/by/4.0/).
 ---
 
 ## Contact
-If you have questions or suggestions, feel free to open an issue or reach out via Twitter!
+If you have questions or suggestions, feel free to open an issue!
 
 ---
 
